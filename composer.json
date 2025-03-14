@@ -1,0 +1,24 @@
+{
+    "name": "nowmar/ifx-task",
+    "autoload": {
+        "psr-4": {
+            "Ifx\\": "src/"
+        },
+        "files": ["uuid.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ifx\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+      "unit": "vendor/bin/phpunit --colors"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5.12"
+    }
+}
